@@ -17,7 +17,7 @@ class MenuScreen extends StatelessWidget {
     final List<MenuModel> menuList = [
 
       MenuModel(icon: Images.profileIcon, title: 'profile'.tr, route: RouteHelper.getProfileRoute()),
-      MenuModel(icon: Images.mySubscriptions, title: 'mySubscription'.tr, route: RouteHelper.getMySubscriptionRoute()),
+      // MenuModel(icon: Images.mySubscriptions, title: 'mySubscription'.tr, route: RouteHelper.getMySubscriptionRoute()),
       MenuModel(icon: Images.chatImage, title: 'chat'.tr, routeValidation: "chat",route: RouteHelper.getInboxScreenRoute()),
       MenuModel(icon: Images.settings, title: 'settings'.tr, route: RouteHelper.getLanguageBottomSheet('menu')),
       MenuModel(icon: Images.notificationSetup, title: 'notification_channel'.tr, route: RouteHelper.getNotificationScreen()),
