@@ -30,10 +30,8 @@
     <true/>
     <key>NSCameraUsageDescription</key>
     <string>This app requires access to the camera to upload customer profile picture.</string>
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>This app needs access to your location in the background to share your live location with customers while providing a service.</string>
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string>This app needs access to location to manage coverage area to get a service from service provider.</string>
+    <string>This app uses your location to manage your service coverage area and provide location-based features.</string>
     <key>NSPhotoLibraryUsageDescription</key>
     <string>This app requires access to the gallery to upload customer profile picture.</string>
     <key>UIApplicationSupportsIndirectInputEvents</key>
@@ -42,7 +40,6 @@
     <array>
        <string>fetch</string>
        <string>remote-notification</string>
-       <string>location</string>
     </array>
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen</string>
